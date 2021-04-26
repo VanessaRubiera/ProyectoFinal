@@ -1,5 +1,7 @@
 package principal;
 
+import javax.swing.JOptionPane;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -10,6 +12,9 @@ public class Principal {
 	}
 
 	public void inicio() {
+		
+		int numero=0;
+		numero = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingresa un numero","Numero",JOptionPane.PLAIN_MESSAGE));
 		
 	}
 	
