@@ -16,6 +16,7 @@ public class Principal {
 		int numero=0;
 		numero = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingresa un numero","Numero",JOptionPane.PLAIN_MESSAGE));
 		JOptionPane.showMessageDialog(null, "Numero: " + numero);
+		
 	}
 	
 }
